@@ -1,1 +1,4 @@
-FROM php:5.6-apache
+FROM php:latest
+MAINTAINER CM Morinaga
+
+ADD common.html /var/www/html/
